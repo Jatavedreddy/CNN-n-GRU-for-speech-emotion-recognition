@@ -9,7 +9,7 @@ import os
 
 # Dataset selection - change this to switch between datasets
 # Options: "tess", "iemocap", or "ravdess"
-DATASET = "tess"
+DATASET = "ravdess"
 
 # Directory paths - update these to your local paths
 # Recommended structure is to place datasets in a 'datasets' folder
@@ -26,7 +26,7 @@ DATASET = "tess"
 # Use environment variables if available, otherwise use default relative paths
 TESS_DATA_FOLDER = os.environ.get("TESS_DATA_PATH", "../datasets/TESS")
 IEMOCAP_DATA_FOLDER = os.environ.get("IEMOCAP_DATA_PATH", "../datasets/IEMOCAP")
-RAVDESS_DATA_FOLDER = os.environ.get("RAVDESS_DATA_PATH", "../datasets/RAVDESS")
+RAVDESS_DATA_FOLDER = os.environ.get("RAVDESS_DATA_PATH", "datasets/RAVDESS Audio Speech Actors Jan 24")
 
 # Model hyperparameters
 BATCH_SIZE = 32

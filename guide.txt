@@ -1,0 +1,5 @@
+check this gemini chat :
+
+steps to run on dataset(ravdess used) : 
+1. python -m main --train --test
+
